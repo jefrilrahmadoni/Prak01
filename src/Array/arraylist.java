@@ -10,7 +10,15 @@ public class arraylist {
         System.out.println(nama[2].isEmpty());
         System.out.println(nama[3].isEmpty());
         
-       
+        //2. size()
+
+        //3. get()
+
+        //4. indexOf()
+
+        //5. remove()
+
+        //6. add()
         
     }
 }
