@@ -21,6 +21,7 @@ public class linked_list {
         System.out.println("output tambah\t:"+elemen+", Ukuran :" +elemen.size());
 
         data.add(55);
+        data.add(55);
         elemen.addAll(data);
         System.out.println("output tambah\t:"+elemen+", Ukuran :" +elemen.size());
         
@@ -39,5 +40,6 @@ public class linked_list {
 
         //is Empty
         System.out.println("Is List empty?\t " +elemen.isEmpty());
+        elemen.clear();
     }
 }
