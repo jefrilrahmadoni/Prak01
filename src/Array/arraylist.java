@@ -27,7 +27,7 @@ public class arraylist {
         System.out.println("\nHASIL DARI 'size()'");
         System.out.println("--------------------");
         //cara 1
-        System.out.println("Size array is " +nama.length+ " (arrayname: nama)");
+        System.out.println("Size array is " +nama.length+ " (arrayname \"nama\")");
         //cara 2
         System.out.println("Size array is " +nama1.size()+ " (arrayname: nama1)\n");
 
