@@ -20,7 +20,7 @@ public class array1d {
         System.out.println("\nNilai y[0] = "+y[0]);
         System.out.println("Nilai y[1] = "+y[1]);
         System.out.println("Nilai y[2] = "+y[2]);
-
+        
         // //cara 3 untuk array 1 dimensi
         int[] z = {10,20,30};
         System.out.println("\nNilai z[0] = "+z[0]);
