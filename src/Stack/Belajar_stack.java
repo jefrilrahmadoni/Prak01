@@ -69,7 +69,7 @@ public class Belajar_stack {
                     break;
 
                 case 6:
-                    System.out.println("Stack: "+tumpukan);
+                    System.out.println("Stack: "+tumpukan.peek());
                     System.out.println("");
                     break;
 
