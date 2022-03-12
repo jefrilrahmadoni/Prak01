@@ -9,7 +9,7 @@ public class Belajar_stack {
         int i=0;
         boolean bool = true;
 
-        Stack<Integer> stack = new Stack<Integer>(); //deklarasi stack
+        Stack<Integer> tumpukan = new Stack<Integer>(); //deklarasi stack
         
         Scanner pilih = new Scanner(System.in);
 
@@ -34,42 +34,42 @@ public class Belajar_stack {
                     do{
                         System.out.print("Masukan angka: ");
                         angka=pilih.nextInt();
-                        stack.push(angka);
+                        tumpukan.push(angka);
                         i++;
                     }
                     while(i<h);
-                    System.out.println("Stack: "+stack);
+                    System.out.println("Stack: "+tumpukan);
                     System.out.println("");
                     break;
 
                 case 2:
-                    System.out.println("Ambil elemen paling atas: "+stack.pop());
+                    System.out.println("Ambil elemen paling atas: "+tumpukan.pop());
                     System.out.println("");
                     break;
 
                 case 3:
-                    System.out.println("Elemen paling atas sekarang: "+stack.peek());
+                    System.out.println("Elemen paling atas sekarang: "+tumpukan.peek());
                     System.out.println("");
                     break;
 
                 case 4:
                     System.out.print("Angka yang dicari: ");
                     int cariangka = pilih.nextInt();
-                    if (stack.search(cariangka)==-1){
+                    if (tumpukan.search(cariangka)==-1){
                         System.out.println("Angka "+cariangka+" tidak ada pada stack");
                     } else{
-                        System.out.println("Posisi: "+stack.search(cariangka));
+                        System.out.println("Posisi: "+tumpukan.search(cariangka));
                     }
                     System.out.println("");
                     break;
 
                 case 5:
-                    System.out.println("Apakah Stack kosong? "+stack.isEmpty());
+                    System.out.println("Apakah Stack kosong? "+tumpukan.isEmpty());
                     System.out.println("");
                     break;
 
                 case 6:
-                    System.out.println("Stack: "+stack);
+                    System.out.println("Stack: "+tumpukan);
                     System.out.println("");
                     break;
 
