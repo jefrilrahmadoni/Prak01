@@ -29,28 +29,30 @@ public class bttraversal {
 	}
 	
 	public static void main(String args[]) {
-		Node root = new Node("a");
-		root.left = new Node("b");
-		root.right = new Node("c");
-		root.left.left = new Node("d");
-		root.left.right = new Node("e");
-        root.right.left = new Node("f");
-        root.left.left.left = new Node("g");
-        root.left.left.right = new Node("h");
-        root.left.right.right = new Node("i");
-        root.right.left.right = new Node("j");
-				
+		Node root = new Node("+");
+		root.left = new Node("*");
+		root.right = new Node("-");
+		root.left.left = new Node("3");
+		root.left.right = new Node("5");
+        root.right.left = new Node("2");
+		root.right.right = new Node("/");
+        root.right.right.left = new Node("8");
+		root.right.right.right = new Node("4");
+        				
 		bttraversal treeOrder = new bttraversal();
 		
 		//PreOrder traversal
+		System.out.print("PreOder: ");
 		treeOrder.preOrder(root);
 		System.out.println("");
 		
 		//InOrder traversal
+		System.out.print("InOder: ");
 		treeOrder.inOrder(root);
 		System.out.println();
 		
 		//PostOrder traversal
+		System.out.print("PostOder: ");
 		treeOrder.postOrder(root);
 		System.out.println();
 	}
